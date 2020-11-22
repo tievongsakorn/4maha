@@ -1,0 +1,45 @@
+// .carousel-cell {
+//   border: 3px solid black;
+// }
+html {
+  height: 100%;
+  
+}
+
+body {
+  height: 100%;
+  background-color: rgb(207, 207, 207);
+}
+.carousel-cell {
+  margin: 3em;
+  border-radius: 30px;
+  border: gray 1px solid;
+  width: 100%; /* full width */
+  height: auto;
+  background: #222;
+  /* center images in cells with flexbox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+}
+
+.carousel-cell img {
+  display: block;
+  max-height: 100%;
+}
+
+footer {
+  margin-top: 1em;
+  padding-top: 1.2em;
+  bottom: 0;
+  height: 10vh;
+  background-color: black;
+  .copy {
+    color: white;
+    text-align: center;
+  }
+}
